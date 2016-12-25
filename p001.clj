@@ -11,4 +11,4 @@
   []
   (reduce +
    (set
-    (reduce conj (get-first-thou-mult 3) (get-first-thou-mult 5)))))
+    (concat (get-first-thou-mult 3) (get-first-thou-mult 5)))))
